@@ -1,0 +1,20 @@
+<button (click)="agregar()"> agregar datos</button>
+
+<h1>{{titulo}}</h1>
+
+<div class="clase">
+    <table border="1">
+        <tr>
+            <td>nombre</td>
+            <td>promedio</td>
+            <td>clase</td>
+            <td>semestre</td>
+        </tr>
+        <tr>
+            <td> <app-clase [nom]="nombre"> </app-clase> </td>
+            <td> {{promedio}} </td>
+            <td> {{clase}} </td>
+            <td> {{semestre}} </td>
+        </tr>
+    </table>
+</div>
